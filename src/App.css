@@ -1,0 +1,149 @@
+*{
+    margin: 5px;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;;
+    width: 42rem;
+    margin: 2rem auto;
+
+}
+
+header h1{
+    text-align: left;
+    margin-bottom: 1rem;
+    color: rgb(58, 103, 167);
+    font-size: 1.7rem;
+}
+aside{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-right: 1rem;
+}
+
+aside input:focus {
+    outline: none;
+}
+
+#search-aside{
+    width: 42rem;
+    padding: 0.5rem;
+}
+
+main , #search-aside, button{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+
+
+}
+
+#search-icon{
+    margin-top: 0.7rem;
+    margin-right: 0;
+}
+
+button{
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 0.4rem;
+    color: rgb(58, 103, 167);
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+aside input{
+    flex: 1;
+    font-size: 1.4rem;
+    border: none;
+    color: rgb(82, 109, 130);
+    font-weight: bold;
+    margin-left: 0.6rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 42rem;
+}
+
+img{
+    width: 9rem;
+    border-radius: 1rem;
+}
+
+#container-1, #container-2{
+    width: 40rem;
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#container-1{
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr ;
+}
+
+#container-2{
+    grid-template-columns: 1fr 1fr 3fr 1fr;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #login{
+    font-size: 2.75rem;
+    color: rgb(39, 55, 77);;
+    display: inline;
+}
+
+#name{
+    font-weight: 100;
+    
+}
+
+#bio{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: rgb(82, 109, 130);
+}
+
+svg{
+    font-size: 1.7rem;
+    fill: rgb(58, 103, 167);
+}
+
+aside p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(82, 109, 130);
+}
+
+#github-icon{
+    width: 100%;
+    margin-left: 0.5rem;
+    font-size: 2.3rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+#github-icon:hover{
+    fill: rgb(38, 75, 129);
+}
